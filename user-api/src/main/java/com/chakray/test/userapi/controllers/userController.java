@@ -1,10 +1,8 @@
 package com.chakray.test.userapi.controllers;
 
 import com.chakray.test.userapi.models.user;
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.ArrayList;
 import java.util.Base64;
 import java.util.List;
@@ -16,9 +14,6 @@ import com.chakray.test.userapi.dto.userDTO;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.ZoneId;
-
-
-
 
 @RestController
 @RequestMapping("/users")

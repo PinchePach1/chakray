@@ -1,9 +1,7 @@
 package com.chakray.test.userapi.dto;
 
 import java.util.List;
-
 import com.chakray.test.userapi.models.address;
-
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;

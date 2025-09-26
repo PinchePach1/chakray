@@ -3,7 +3,6 @@ package com.chakray.test.userapi.utils;
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
-
 import java.util.Base64;
 
 public class cryptoUtils {
